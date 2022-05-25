@@ -1,4 +1,4 @@
-enum 5010001 "MNB Bonus Status"
+enum 50105 "MNB Bonus Status"
 {
     Extensible = true;
 

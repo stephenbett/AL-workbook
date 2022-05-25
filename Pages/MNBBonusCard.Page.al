@@ -1,4 +1,4 @@
-page 5010002 "MNB Bonus Card"
+page 50100 "MNB Bonus Card"
 {
     PageType = Document;
     SourceTable = "MNB Bonus Header";
@@ -48,11 +48,11 @@ page 5010002 "MNB Bonus Card"
                     ApplicationArea = All;
                     ToolTip = 'Specifies bonus ending date.';
                 }
-                field(Status; Status)
-                {
-                    ApplicationArea = All;
-                    ToolTip = 'Specifies bonus status.';
-                }
+                // field(Status; Status)
+                // {
+                //     ApplicationArea = All;
+                //     ToolTip = 'Specifies bonus status.';
+                // }
             }
         }
     }

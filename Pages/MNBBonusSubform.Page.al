@@ -1,4 +1,4 @@
-page 5010003 "MNB Bonus Subform"
+page 50110 "MNB Bonus Subform"
 {
     PageType = ListPart;
     SourceTable = "MNB Bonus Line";

@@ -1,49 +1,49 @@
-// table 50100 "Test Table"
-// {
-//     DataClassification = ToBeClassified;
+table 50113 "Test Table"
+{
+    DataClassification = ToBeClassified;
 
-//     fields
-//     {
-//         field(1; Entry; Code[10])
-//         {
-//             DataClassification = ToBeClassified;
+    fields
+    {
+        field(1; Entry; Code[10])
+        {
+            DataClassification = ToBeClassified;
 
-//         }
-//         field(2; Name; Text[50])
-//         {
-//             DataClassification = ToBeClassified;
-//         }
-//     }
+        }
+        field(2; Name; Text[50])
+        {
+            DataClassification = ToBeClassified;
+        }
+    }
 
-//     keys
-//     {
-//         key(PK; Entry)
-//         {
-//             Clustered = true;
-//         }
-//     }
+    keys
+    {
+        key(PK; Entry)
+        {
+            Clustered = true;
+        }
+    }
 
-//     var
-//         myInt: Integer;
+    var
+        myInt: Integer;
 
-//     trigger OnInsert()
-//     begin
+    trigger OnInsert()
+    begin
 
-//     end;
+    end;
 
-//     trigger OnModify()
-//     begin
+    trigger OnModify()
+    begin
 
-//     end;
+    end;
 
-//     trigger OnDelete()
-//     begin
+    trigger OnDelete()
+    begin
 
-//     end;
+    end;
 
-//     trigger OnRename()
-//     begin
+    trigger OnRename()
+    begin
 
-//     end;
+    end;
 
-// }
+}

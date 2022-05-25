@@ -30,8 +30,8 @@
   "platform": "1.0.0.0",
   "idRanges": [
     {
-      "from": 5010000,
-      "to": 5014900
+      "from": 50100,
+      "to": 50149
     }
   ],
   "showMyCode": true,
