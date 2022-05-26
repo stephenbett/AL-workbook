@@ -248,6 +248,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Page - Control Name - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 66209321 - Action 3508556790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Bonuses</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Customer List - Action MNBBonuses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 66209321 - Control 2502609590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Show number of assigned bonuses to customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MNB Customer List - Control MNB Bonuses - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2084561311 - NamedType 1896325869" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2084561311">
+          <source>You can not delete Customer %1 because there is at least one Bonus assigned</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MNB Customer - NamedType BonusExitsErr</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2084561311 - Field 2502609590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Bonuses</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MNB Customer - Field MNB Bonuses - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 1015206188 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open</source>
           <note from="Developer" annotates="general" priority="2"></note>
