@@ -60,6 +60,16 @@ page 50120 "MNB Bonus Card"
     {
         area(Navigation)
         {
+            action(BonusEntries)
+            {
+                ApplicationArea = All;
+                Caption = 'Bonus Entries';
+                Promoted = true;
+                PromotedCategory = Process;
+                RunObject = page "MNB Bonus Entries";
+                RunPageLink = "Bonus No." = field("No.");
+                ToolTip = 'Opens bonus entries.';
+            }
             action(CustomerCard)
             {
                 ApplicationArea = All;
@@ -70,17 +80,6 @@ page 50120 "MNB Bonus Card"
                 RunObject = page "Customer Card";
                 RunPageLink = "No." = field("Customer No");
                 ToolTip = 'Opens customer card.';
-            }
-            action(BonusEntries)
-            {
-                ApplicationArea = All;
-                Caption = 'Bonus Entries';
-                Image = Entry;
-                Promoted = true;
-                PromotedCategory = Process;
-                RunObject = page "MNB Bonus Entries";
-                RunPageLink = "Bonus No." = field("No.");
-                ToolTip = 'Opens bonus entries.';
             }
 
         }
