@@ -30,7 +30,7 @@ table 50114 "MNB Bonus Header"
             DataClassification = CustomerContent;
             Caption = 'Ending Date';
         }
-        field(5; Status; Enum "MNB Bonus Status")
+        field(5; Status; Enum "Approval Status")
         {
             DataClassification = CustomerContent;
             Caption = 'Status';

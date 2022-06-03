@@ -13,7 +13,7 @@ codeunit 50119 "MNB Bonus Calculation"
         if SalesInvLine.Type <> SalesInvLine.Type::Item then
             exit;
         MNBBonusHeader.SetRange("Customer No", SalesInvLine."Bill-to Customer No.");
-        MNBBonusHeader.SetRange(Status, MNBBonusHeader.Status::Released);
+        MNBBonusHeader.SetRange(Status, MNBBonusHeader.Status::Approved);
         MNBBonusHeader.SetFilter("Staring Date", '..%1', SalesInvLine."Posting Date");
         MNBBonusHeader.SetFilter("Ending Date", '%1..', SalesInvLine."Posting Date");
         if MNBBonusHeader.IsEmpty() then
