@@ -85,18 +85,19 @@ report 50133 "MNB Bonus Overview"
                 {
 
                 }
-                trigger OnAfterGetRecord()
-                var
-                    MNBonusEntry: Record "MNB Bonus Entry";
-                begin
-                    MNBonusEntry.CopyFilters("MNB Bonus Entry");
-                    MNBonusEntry.SetRange("Bonus No.", "Bonus No.");
-                    MNBonusEntry.CalcSums("Bonus Amount");
 
-                    AmountSum := MNBonusEntry."Bonus Amount";
-                end;
 
             }
+            trigger OnAfterGetRecord()
+            var
+                MNBonusEntry: Record "MNB Bonus Entry";
+            begin
+                MNBonusEntry.CopyFilters("MNB Bonus Entry");
+                MNBonusEntry.SetRange("Bonus No.", BonusAmountCaptionLbl);
+                MNBonusEntry.CalcSums("Bonus Amount");
+
+                AmountSum := MNBonusEntry."Bonus Amount";
+            end;
         }
     }
     var
