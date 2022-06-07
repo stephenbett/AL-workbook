@@ -1,4 +1,4 @@
-page 50100 "MNB Bonus Setup"
+page 50102 "MNB Bonus Setup"
 {
     PageType = Card;
     ApplicationArea = All;

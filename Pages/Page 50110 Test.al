@@ -1,4 +1,4 @@
-page 50104 "Test Page"
+page 50110 "Test Page"
 {
     ApplicationArea = All;
     Caption = 'Test Page';

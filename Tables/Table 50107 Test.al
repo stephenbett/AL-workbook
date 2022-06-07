@@ -1,4 +1,4 @@
-table 50104 "Test Table"
+table 50107 "Test Table"
 {
     DataClassification = ToBeClassified;
 

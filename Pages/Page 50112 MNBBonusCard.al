@@ -1,4 +1,4 @@
-page 50101 "MNB Bonus Card"
+page 50112 "MNB Bonus Card"
 {
     PageType = Document;
     SourceTable = "MNB Bonus Header";

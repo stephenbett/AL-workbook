@@ -1,4 +1,4 @@
-page 50102 "MNB Bonus List"
+page 50108 "MNB Bonus List"
 {
     PageType = List;
     Caption = 'Bonuses';
