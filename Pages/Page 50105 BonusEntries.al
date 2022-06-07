@@ -1,4 +1,4 @@
-page 50118 "MNB Bonus Entries"
+page 50105 "MNB Bonus Entries"
 {
     Caption = 'Bonus Entries';
     DeleteAllowed = false;

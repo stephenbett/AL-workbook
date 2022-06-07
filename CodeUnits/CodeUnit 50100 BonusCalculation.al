@@ -1,4 +1,4 @@
-codeunit 50119 "MNB Bonus Calculation"
+codeunit 50100 "MNB Bonus Calculation"
 {
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Sales-Post", 'OnAfterSalesInvLineInsert', '', true, true)]
     local procedure RunOnAfterSalesInvLineInsert(var SalesInvLine: Record "Sales Invoice Line")
