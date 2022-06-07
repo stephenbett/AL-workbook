@@ -11,70 +11,6 @@
       <rd:DataSourceID>47511316-6824-42bc-a6f5-087b14ff793a</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-      <Fields>
-        <Field Name="No_">
-          <DataField>No_</DataField>
-        </Field>
-        <Field Name="Customer_No">
-          <DataField>Customer_No</DataField>
-        </Field>
-        <Field Name="Staring_Date">
-          <DataField>Staring_Date</DataField>
-        </Field>
-        <Field Name="Ending_Date">
-          <DataField>Ending_Date</DataField>
-        </Field>
-        <Field Name="BonusNoCaptionLbl">
-          <DataField>BonusNoCaptionLbl</DataField>
-        </Field>
-        <Field Name="StaringDate_MNBBonusHeader">
-          <DataField>StaringDate_MNBBonusHeader</DataField>
-        </Field>
-        <Field Name="CustomerNoCaptionLbl">
-          <DataField>CustomerNoCaptionLbl</DataField>
-        </Field>
-        <Field Name="PostingDateCaptionLbl">
-          <DataField>PostingDateCaptionLbl</DataField>
-        </Field>
-        <Field Name="DocumentNoCaptionLbl">
-          <DataField>DocumentNoCaptionLbl</DataField>
-        </Field>
-        <Field Name="BonusAmountCaptionLbl">
-          <DataField>BonusAmountCaptionLbl</DataField>
-        </Field>
-        <Field Name="ItemNoCaptionLbl">
-          <DataField>ItemNoCaptionLbl</DataField>
-        </Field>
-        <Field Name="StartingDateCaptionLbl">
-          <DataField>StartingDateCaptionLbl</DataField>
-        </Field>
-        <Field Name="EndingDateCaptionLbl">
-          <DataField>EndingDateCaptionLbl</DataField>
-        </Field>
-        <Field Name="Document_No_">
-          <DataField>Document_No_</DataField>
-        </Field>
-        <Field Name="Posting_Date">
-          <DataField>Posting_Date</DataField>
-        </Field>
-        <Field Name="Item_No_">
-          <DataField>Item_No_</DataField>
-        </Field>
-        <Field Name="Bonus_Amount">
-          <DataField>Bonus_Amount</DataField>
-        </Field>
-        <Field Name="Bonus_AmountFormat">
-          <DataField>Bonus_AmountFormat</DataField>
-        </Field>
-      </Fields>
-    </DataSet>
-  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -453,12 +389,6 @@
       </Page>
     </ReportSection>
   </ReportSections>
-  <ReportParametersLayout>
-    <GridLayoutDefinition>
-      <NumberOfColumns>4</NumberOfColumns>
-      <NumberOfRows>2</NumberOfRows>
-    </GridLayoutDefinition>
-  </ReportParametersLayout>
   <Code>Public Function BlankZero(ByVal Value As Decimal)
     if Value = 0 then
         Return ""
@@ -498,4 +428,68 @@ End Function
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
   <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="No_">
+          <DataField>No_</DataField>
+        </Field>
+        <Field Name="Customer_No">
+          <DataField>Customer_No</DataField>
+        </Field>
+        <Field Name="Staring_Date">
+          <DataField>Staring_Date</DataField>
+        </Field>
+        <Field Name="Ending_Date">
+          <DataField>Ending_Date</DataField>
+        </Field>
+        <Field Name="BonusNoCaptionLbl">
+          <DataField>BonusNoCaptionLbl</DataField>
+        </Field>
+        <Field Name="StaringDate_MNBBonusHeader">
+          <DataField>StaringDate_MNBBonusHeader</DataField>
+        </Field>
+        <Field Name="CustomerNoCaptionLbl">
+          <DataField>CustomerNoCaptionLbl</DataField>
+        </Field>
+        <Field Name="PostingDateCaptionLbl">
+          <DataField>PostingDateCaptionLbl</DataField>
+        </Field>
+        <Field Name="DocumentNoCaptionLbl">
+          <DataField>DocumentNoCaptionLbl</DataField>
+        </Field>
+        <Field Name="BonusAmountCaptionLbl">
+          <DataField>BonusAmountCaptionLbl</DataField>
+        </Field>
+        <Field Name="ItemNoCaptionLbl">
+          <DataField>ItemNoCaptionLbl</DataField>
+        </Field>
+        <Field Name="StartingDateCaptionLbl">
+          <DataField>StartingDateCaptionLbl</DataField>
+        </Field>
+        <Field Name="EndingDateCaptionLbl">
+          <DataField>EndingDateCaptionLbl</DataField>
+        </Field>
+        <Field Name="Document_No_">
+          <DataField>Document_No_</DataField>
+        </Field>
+        <Field Name="Posting_Date">
+          <DataField>Posting_Date</DataField>
+        </Field>
+        <Field Name="Item_No_">
+          <DataField>Item_No_</DataField>
+        </Field>
+        <Field Name="Bonus_Amount">
+          <DataField>Bonus_Amount</DataField>
+        </Field>
+        <Field Name="Bonus_AmountFormat">
+          <DataField>Bonus_AmountFormat</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
 </Report>

@@ -1,13 +1,13 @@
-report 50133 "MNB Bonus Overview"
+report 50133 Bonus_Report
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     Caption = 'Bonus Overview';
 
-    // DefaultLayout = RDLC;
-    // RDLCLayout = './layout/BonusOverview.rdl';
-    DefaultLayout = Word;
-    WordLayout = 'BonusOverview.docx';
+    DefaultLayout = RDLC;
+    RDLCLayout = './layout/BonusOverview.rdl';
+    // DefaultLayout = Word;
+    // WordLayout = 'BonusOverview.docx';
     dataset
     {
         dataitem("MNB Bonus Header"; "MNB Bonus Header")
@@ -88,22 +88,11 @@ report 50133 "MNB Bonus Overview"
 
 
             }
-            trigger OnAfterGetRecord()
-            var
-                MNBonusEntry: Record "MNB Bonus Entry";
-            begin
-                MNBonusEntry.CopyFilters("MNB Bonus Entry");
-                MNBonusEntry.SetRange("Bonus No.", BonusAmountCaptionLbl);
-                MNBonusEntry.CalcSums("Bonus Amount");
 
-                AmountSum := MNBonusEntry."Bonus Amount";
-            end;
         }
     }
     var
         AmountSum: Decimal;
-
-
 
     var
         BonusNoCaptionLbl: Label 'Bonus No.';
@@ -116,7 +105,17 @@ report 50133 "MNB Bonus Overview"
         EndingDateCaptionLbl: Label 'Ending Date';
 
 
+    trigger OnPreReport()
 
+    var
+        MNBonusEntry: Record "MNB Bonus Entry";
+    begin
+        MNBonusEntry.CopyFilters("MNB Bonus Entry");
+        MNBonusEntry.SetRange("Bonus No.", BonusAmountCaptionLbl);
+        MNBonusEntry.CalcSums("Bonus Amount");
+
+        AmountSum := MNBonusEntry."Bonus Amount";
+    end;
 
 }
 
