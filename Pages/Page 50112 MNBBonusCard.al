@@ -1,11 +1,21 @@
 page 50112 "MNB Bonus Card"
 {
-    PageType = Document;
+    PageType = Card;
     SourceTable = "MNB Bonus Header";
     Caption = 'Bonus Card';
 
+
     layout
     {
+        area(FactBoxes)
+        {
+            part(MNBBonusStatistics; "Bonus Statistic")
+            {
+                ApplicationArea = All;
+                SubPageLink = "No." = field("No.");
+                Caption = 'Statistics';
+            }
+        }
         area(Content)
         {
             part(Lines; "MNB Bonus Subform")
@@ -56,6 +66,7 @@ page 50112 "MNB Bonus Card"
             }
         }
     }
+
     actions
     {
         area(Navigation)
@@ -81,7 +92,14 @@ page 50112 "MNB Bonus Card"
                 RunPageLink = "No." = field("Customer No");
                 ToolTip = 'Opens customer card.';
             }
-
         }
+
+
+
+
     }
+
 }
+
+
+

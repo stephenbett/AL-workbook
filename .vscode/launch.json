@@ -10,7 +10,7 @@
             "serverInstance": "BC190",
             "port": 7049,
             "authentication": "Windows",
-            "startupObjectId":50108,
+            "startupObjectId":50112,
             "startupObjectType": "Page",
             "breakOnError": true,
             "launchBrowser": true,

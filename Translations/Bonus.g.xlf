@@ -43,6 +43,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table MNB Bonus Header - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3448698517 - Field 631925499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MNB Bonus Header - Field Bonus Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3448698517 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MNB Bonus Header - Field Customer Name - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3448698517 - Field 627846863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer No</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -118,6 +128,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Test Table - Field Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1986768261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Statistic</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bonus Statistic - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1986768261 - Control 631925499 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bonus Amount field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bonus Statistic - Control Bonus Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1986768261 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the bonus number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Bonus Statistic - Control No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3920254204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -172,6 +197,11 @@
           <source>Specifies bonus status.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MNB Bonus Card - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3920254204 - Control 975799539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MNB Bonus Card - Control MNBBonusStatistics - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3920254204 - Action 3169626393 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Opens bonus entries.</source>
